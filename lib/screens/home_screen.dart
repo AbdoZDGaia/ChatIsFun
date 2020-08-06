@@ -1,4 +1,3 @@
-import 'package:chatisfun/models/messages.dart';
 import 'package:chatisfun/widgets/category_selector.dart';
 import 'package:chatisfun/widgets/favorite_contacts.dart';
 import 'package:chatisfun/widgets/recent_chats.dart';
