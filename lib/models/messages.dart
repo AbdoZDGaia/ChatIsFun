@@ -23,10 +23,10 @@ final User currentUser = User(
   name: 'AbdoZ',
 );
 
-final User zizo = User(
+final User zidan = User(
   id: 2,
-  imageUrl: 'assets/images/zizo.jpg',
-  name: 'Zizo',
+  imageUrl: 'assets/images/zidan.jpg',
+  name: 'zidan',
 );
 
 final User gramps = User(
@@ -50,24 +50,24 @@ final User devguy = User(
 final User habsa = User(
   id: 6,
   imageUrl: 'assets/images/habsa.jpg',
-  name: '7absa',
+  name: 'Hadi',
 );
 
 final User gelgel = User(
   id: 7,
   imageUrl: 'assets/images/gelgel.jpg',
-  name: 'جلجل',
+  name: 'Galio',
 );
 
-final User disha = User(
+final User nitro = User(
   id: 8,
-  imageUrl: 'assets/images/disha.jpg',
-  name: 'درش',
+  imageUrl: 'assets/images/nitro.jpg',
+  name: 'Nitro',
 );
 //--------------------------------------
 
 //Pre-defined Favourites
-List<User> favorites = [zizo, habsa, gelgel, disha, devguy, guru, gramps];
+List<User> favorites = [zidan, habsa, gelgel, nitro, devguy, guru, gramps];
 
 //Pre-defined chats
 List<Message> chats = [
@@ -79,7 +79,7 @@ List<Message> chats = [
     unread: false,
   ),
   Message(
-    sender: disha,
+    sender: nitro,
     text: 'peace',
     time: '6:50 AM',
     isLiked: false,
@@ -87,14 +87,14 @@ List<Message> chats = [
   ),
   Message(
     sender: gelgel,
-    text: 'تمام يا حبي على خير ان شاء الله',
+    text: 'Alright bud, cya',
     time: '6:50 AM',
     isLiked: true,
     unread: false,
   ),
   Message(
     sender: habsa,
-    text: 'اشطة سلام يا معلم',
+    text: 'stay safe, be seeing u on tonights meeting',
     time: '6:50 AM',
     isLiked: false,
     unread: true,
@@ -108,13 +108,13 @@ List<Message> chats = [
   ),
   Message(
     sender: gramps,
-    text: 'حاضر حاشوف و ارد عليك',
+    text: 'let me get back to you on this one.',
     time: '3:10 PM',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: zizo,
+    sender: zidan,
     text: 'Okay I\'m downstairs atm, pick me up',
     time: '4:16 PM',
     isLiked: false,
@@ -125,16 +125,16 @@ List<Message> chats = [
 //Pre-defined messages
 List<Message> messages = [
   Message(
-    sender: zizo,
-    time: '5:30 PM',
+    sender: zidan,
+    time: '6:02 PM',
     text: 'Okay I\'m downstairs atm, pick me up',
     isLiked: false,
     unread: false,
   ),
   Message(
-    sender: zizo,
+    sender: zidan,
     time: '4:30 PM',
-    text: 'maybe, up for some coffee?!',
+    text: 'aight, ill come pick u up at 6 be rdy by then!',
     isLiked: false,
     unread: false,
   ),
@@ -142,56 +142,56 @@ List<Message> messages = [
     sender: currentUser,
     time: '3:45 PM',
     text:
-        'Is there something in particular on your mind that you wanna do to break the curse?',
+        'how about we go to that new restaurant around the corner? they say the food there\'s awesome',
     isLiked: false,
     unread: false,
   ),
   Message(
-    sender: zizo,
+    sender: zidan,
     time: '3:15 PM',
-    text: 'nothing, NOTHING AT ALL!',
+    text: 'sheesh, about time lol',
     isLiked: true,
     unread: false,
   ),
   Message(
     sender: currentUser,
     time: '2:30 PM',
-    text: 'dang! What did you do all day?',
+    text: 'dang! sry i\'ve been out all day..',
     isLiked: false,
     unread: false,
   ),
   Message(
-    sender: zizo,
-    time: '2:00 PM',
-    text: 'I\'m dead bored dude, lol!',
+    sender: zidan,
+    time: '2:20 PM',
+    text: 'help a brother out man, cm\'on talk to me',
     isLiked: false,
     unread: false,
   ),
   Message(
-    sender: zizo,
-    time: '2:00 PM',
-    text: 'something has to be done',
+    sender: zidan,
+    time: '2:19 PM',
+    text: 'yo, are you there?',
     isLiked: false,
     unread: false,
   ),
   Message(
-    sender: zizo,
-    time: '2:00 PM',
-    text: 'how else would u explain this dull state i\'m in right now??',
+    sender: zidan,
+    time: '2:10 PM',
+    text: 'I\'d go right now!',
     isLiked: false,
     unread: false,
   ),
   Message(
-    sender: zizo,
-    time: '2:01 PM',
-    text: 'I srsly think something\'s not right!',
+    sender: zidan,
+    time: '2:09 PM',
+    text: 'any good restaurants you\'d recommend?',
     isLiked: false,
     unread: false,
   ),
   Message(
-    sender: zizo,
-    time: '2:00 PM',
-    text: 'I wasted so much time today.',
+    sender: zidan,
+    time: '2:08 PM',
+    text: 'I would kill for a steak right now!',
     isLiked: false,
     unread: false,
   ),
